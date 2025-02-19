@@ -1,0 +1,38 @@
+{
+  "name": "black-avisto-eastern-europe",
+  "displayName": "Avisto Eastern Europe Black Theme",
+  "description": "Dark Theme created by Srđan Jovanović",
+  "version": "0.1.2",
+  "publisher": "avistoeasterneurope",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "black",
+    "avisto eastern europe",
+    "dark"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Avisto Eastern Europe Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/avisto-eastern-europe-black-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avistoeasterneurope/avisto-eastern-europe-black-theme.git"
+  }
+}
